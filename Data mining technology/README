@@ -1,14 +1,21 @@
 本文件夹收录数据挖掘，大数据分析相关课程的内容。
 
-1.Intelligent optimization technology of industrial process
-工业智能优化技术
-本文结合工业过程智能优化技术课程的要求，系统地研究了风电功率预测与优化模型的建立。
-
-2.TEP simulation experiment
+1.TEP simulation experiment
 TEP过程仿真实验
+数据预处理：小波去噪，主成分分析，皮尔逊相关系数
+回归预测：线性回归，SVR，随机森林
+分类预测：SVM，随机森林
 
-3.Wind power simulation experiment
+2.Wind power simulation experiment
 风电功率预测实验
+数据预处理：可视化，DBSCAN去噪，归一化
+工况识别：K-means聚类
+回归预测：神经网络算法，最小二乘法，支持向量回归算法，随机森林算法
 
+3.Intelligent optimization technology of industrial process
+工业智能优化技术
+本文在风电功率预测实验的基础上，研究风电功率优化模型的建立
+本文采用了模拟退火算法，以功率最大化为目标，使用罚函数法考虑风速、风向和温度的不等式约束条件
+分别在三种工况对应的风速下，寻找最优风向和温度组合，以最大化风电功率输出
 
 作者水平有限，仅提供参考。
